@@ -44,41 +44,6 @@
 	<div class="content">
 		<ul class="table-view" id="msgList"> </ul>
 	</div>
-	<div id="sendModal" class="modal">
-		<header class="bar bar-nav"> <a id="cancelMsgBtn" class="btn btn-link btn-nav pull-left" href="#newModal"><span class="icon icon-left-nav"></span>Back</a>
-			<h1 class="title">New Message</h1> </header>
-		<div class="content">
-			<div class="card">
-				<form class="input-group">
-					<div class="input-row">
-						<label>To:</label>
-						<select id="userList"> </select>
-					</div>
-					<label>Message:</label>
-					<textarea id="msgDiv" rows="5" maxlength="140"></textarea>
-				</form>
-				<p class="content-padded"> <img id="msgPicture" class="media-object hidden" src="img/logo.png">
-					<button id="takePictureBtn" class="btn btn-primary btn-block"> <span class="icon icon-person"></span> Camera </button>
-					<button id="sendMsgBtn" class="btn btn-positive btn-block" href="#fake"> <span class="icon icon-check"></span> Send </button>
-				</p>
-			</div>
-		</div>
-	</div>
-	<div id="detailModal" class="modal">
-		<header class="bar bar-nav"> <a id="back" class="btn btn-link btn-nav pull-left" href="#detailsModal"><span class="icon icon-left-nav"></span>Back</a>
-			<h1 class="title">Receieved Messages</h1> <a id="replyMsgBtn" class="btn btn-link btn-nav pull-right" href="#detailsModal">Reply<span class="icon icon-right-nav"></span></a> </header>
-		<div class="content">
-			<div class="card">
-				<div class="input-row" id="fromUser"></div>
-			</div>
-			<div class="card" id="userMsg"> </div>
-			<div class="card"><img class="media-object" src="" crossorigin="anonymous">
-				<p class="content-padded">
-					<button id="deleteMsgBtn" class="btn btn-negative btn-block"><span class="icon icon-trash"></span> Delete</button>
-				</p>
-			</div>
-		</div>
-	</div>
 	<div id="loginModal" class="modal active">
 		<header class="bar bar-nav">
 			<h1 class="title">Secret Messenger</h1> </header>
